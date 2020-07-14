@@ -115,7 +115,7 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  # spec.framework  = "SomeFramework"
+   spec.framework  = "Localytics.framework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
@@ -131,6 +131,6 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-   spec.dependency "Localytics", "~> 6.0"
+  #spec.dependency "Localytics", "~> 6.0"
 
 end
