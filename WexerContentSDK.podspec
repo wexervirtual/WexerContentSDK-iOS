@@ -77,9 +77,9 @@ Pod::Spec.new do |spec|
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
-
+  spec.ios.vendored_frameworks = "WexerContentSDK.framework"
   spec.source       = { :git => "https://github.com/wexervirtual/WexerContentSDK-iOS.git", :tag => "#{spec.version}" }
-
+  spec.swift_version = "5.1"
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
