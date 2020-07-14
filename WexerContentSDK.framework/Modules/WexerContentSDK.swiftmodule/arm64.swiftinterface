@@ -1,0 +1,249 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name WexerContentSDK
+import AVKit
+import Foundation
+import Localytics
+import Swift
+import UIKit
+@_exported import WexerContentSDK
+@objc public class WCSDKConfig : ObjectiveC.NSObject {
+  @objc public init(baseURL: Swift.String, secretKey: Swift.String, apiKey: Swift.String, tenantId: Swift.String, localyticsKey: Swift.String)
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc public class WCSDKOndemandCollection : ObjectiveC.NSObject, Swift.Codable {
+  public var collectionType: Swift.String
+  public var collectionName: Swift.String
+  public var collectionTag: Swift.String
+  public var creationDate: Swift.String
+  public var itemCount: Swift.Int
+  public var collectionItems: [WexerContentSDK.WCSDKOndemandClass]?
+  @objc deinit
+  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@objc public class WCSDKOndemandClass : ObjectiveC.NSObject, Swift.Codable {
+  public var tag: Swift.String
+  public var className: Swift.String
+  public var classDescription: Swift.String
+  public var classCategories: Swift.String?
+  public var languageTag: Swift.String?
+  public var languageName: Swift.String?
+  public var providerID: Swift.String?
+  public var provider: Swift.String?
+  public var intensity: Swift.Int
+  public var skill: Swift.Int
+  public var calorieBurn: Swift.Int?
+  public var durationSecond: Swift.Int
+  public var durationMinutes: Swift.String
+  public var equipmentNames: [Swift.String]?
+  public var equipmentTypes: Swift.Bool
+  public var creationDate: Swift.String
+  public var lastModifiedDate: Swift.String
+  public var favourite: Swift.Bool
+  public var trailerLinkMobile: Swift.String?
+  public var trailerName: Swift.String?
+  public var imageLink: Swift.String?
+  public var streamingLink: Swift.String?
+  @objc deinit
+  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@objc public class WCSDKOndemandClassResponse : ObjectiveC.NSObject, Swift.Codable {
+  public var totalItems: Swift.Int
+  public var itemsRemaining: Swift.Int
+  public var items: [WexerContentSDK.WCSDKOndemandClass]
+  @objc deinit
+  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@objc public class WCSDKOndemandMetaData : ObjectiveC.NSObject, Swift.Codable {
+  public var classTypes: [Swift.String]
+  public var equipments: [WexerContentSDK.ValueType]
+  public var language: [WexerContentSDK.ValueType]
+  public var providers: [Swift.String]
+  public var duration: WexerContentSDK.MinMaxType
+  public var intensity: WexerContentSDK.MinMaxType
+  @objc deinit
+  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct ValueType : Swift.Codable {
+  public var text: Swift.String
+  public var value: Swift.String
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct MinMaxType : Swift.Codable {
+  public var min: Swift.Int
+  public var max: Swift.Int
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct WCSDKOndemandResultRequest : Swift.Codable {
+  public var performDate: Swift.String
+  public var providerName: Swift.String
+  public var playedDurationSecond: Swift.Int
+  public var requestsource: Swift.Int
+  public var contentID: Swift.String
+  public var actualDurationSecond: Swift.Int
+  public var contentName: Swift.String
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@objc public class WCSDKOndemandFilterRequest : ObjectiveC.NSObject, Swift.Codable {
+  public var classLanguage: Swift.String
+  public var dir: Swift.String
+  public var duration: Swift.String
+  public var equipment: Swift.String
+  public var intensity: Swift.String
+  public var keywords: Swift.String
+  public var level: Swift.String
+  public var provider: Swift.String
+  public var skip: Swift.Int
+  public var sort: Swift.String
+  public var type: Swift.String
+  public var take: Swift.Int
+  public var query: Swift.String
+  @objc deinit
+  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public typealias GenericCallBack = (Swift.Int) -> Swift.Void
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class WCSDK : ObjectiveC.NSObject {
+  public static let shared: WexerContentSDK.WCSDK
+  @objc public class func initialize(config: WexerContentSDK.WCSDKConfig)
+  @objc public class func startSession(userName: Swift.String, completionBlock: @escaping (Foundation.NSError?) -> Swift.Void)
+  @objc public class func getOndemandCollections(collectionId: Swift.String?, maxResults: Swift.Int, completionBlock: @escaping ([WexerContentSDK.WCSDKOndemandCollection]?, Foundation.NSError?) -> Swift.Void)
+  @objc public class func getOndemandClasses(page: Swift.Int, pageSize: Swift.Int, sort: Swift.String?, order: Swift.String?, completionBlock: @escaping (WexerContentSDK.WCSDKOndemandClassResponse?, Foundation.NSError?) -> Swift.Void)
+  @objc public class func getOndemandClassDetails(for classTag: Swift.String, completionBlock: @escaping (WexerContentSDK.WCSDKOndemandClass?, Foundation.NSError?) -> Swift.Void)
+  @objc public class func getOndemandMetaData(completionBlock: @escaping (WexerContentSDK.WCSDKOndemandMetaData?, Foundation.NSError?) -> Swift.Void)
+  @objc public class func getOndemandClassesForCriteria(with filterParams: WexerContentSDK.WCSDKOndemandFilterRequest, completionBlock: @escaping (WexerContentSDK.WCSDKOndemandSearchResult?, Foundation.NSError?) -> Swift.Void)
+  @objc public class func activateSubscription(subscription: WexerContentSDK.WCSDKUserSubscriptionRequest, completionBlock: @escaping (Foundation.NSError?) -> Swift.Void)
+  @objc public class func cancelSubscription(completionBlock: @escaping (Foundation.NSError?) -> Swift.Void)
+  @objc deinit
+}
+@objc public class WCSDKConsent : ObjectiveC.NSObject, Swift.Codable {
+  public var policy: Swift.String
+  public var consentTag: Swift.String
+  public var actionable: Swift.Bool
+  public var urls: [WexerContentSDK.LinkDetail]
+  public var policyHtml: Swift.String
+  public var title: Swift.String
+  public var version: Swift.Int
+  public var publishedDate: Swift.String
+  public var isMandatory: Swift.Bool
+  @objc deinit
+  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@objc public class LinkDetail : ObjectiveC.NSObject, Swift.Codable {
+  public var linkText: Swift.String
+  public var linkUrl: Swift.String
+  @objc deinit
+  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@_inheritsConvenienceInitializers @objc public class WCSDKUser : ObjectiveC.NSObject, Swift.Codable {
+  public var username: Swift.String
+  public var userId: Swift.String
+  public var code: Swift.String
+  @objc deinit
+  @objc override dynamic public init()
+  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@objc public class WCSDKUserSubscriptionRequest : ObjectiveC.NSObject, Swift.Codable {
+  public var start: Swift.String
+  public var subscriptionId: Swift.String
+  public init(startDate: Foundation.Date, subscriptionId: Swift.String)
+  @objc deinit
+  @objc override dynamic public init()
+  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@objc public class WCSDKVideoViewBuilder : ObjectiveC.NSObject {
+  public init(ondemandClassInfo: WexerContentSDK.WCSDKOndemandClass)
+  public func setPlayButtonImage(image: UIKit.UIImage)
+  public func setPauseButtonImage(image: UIKit.UIImage)
+  public func setPlayPauseButtonColor(color: UIKit.UIColor)
+  public func setExitButtonImage(image: UIKit.UIImage)
+  public func setExitButtonColor(color: UIKit.UIColor)
+  public func setProgressSliderTintColor(mincolor: UIKit.UIColor?, maxcolor: UIKit.UIColor?, thumbtint: UIKit.UIColor?, tintColor: UIKit.UIColor?)
+  public func setTitleTextColor(color: UIKit.UIColor)
+  public func setTitleFont(font: UIKit.UIFont)
+  public func setAutoPlay(enable: Swift.Bool)
+  public func setThemeColor(color: UIKit.UIColor)
+  public func setShowHideDuration(duration: Foundation.TimeInterval)
+  public func setEventReceiver(receiver: WexerContentSDK.WCSDKPlayerEventsListner)
+  public func startVideoIn(parentView: UIKit.UIView?, overlayView: UIKit.UIView?, completionBlock: @escaping (WexerContentSDK.WCSDKPlayerEvents?, Foundation.NSError?) -> Swift.Void)
+  @objc deinit
+  @objc override dynamic public init()
+}
+public struct WCSDKLoginRequest : Swift.Codable {
+  public init(username: Swift.String)
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@objc public class WCSDKOndemandSearchResult : ObjectiveC.NSObject, Swift.Codable {
+  public var total: Swift.Int
+  public var itemsRemaining: Swift.Int
+  public var items: [WexerContentSDK.WCSDKSearchItem]
+  @objc deinit
+  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@objc public class WCSDKSearchItem : ObjectiveC.NSObject, Swift.Codable {
+  public var equipmentTypes: Swift.String
+  public var classTag: Swift.String
+  public var virtualClass: WexerContentSDK.WCSDKOndemandClass
+  @objc deinit
+  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@objc public protocol WCSDKPlayerEventsListner : AnyObject {
+  @objc optional func playerStatus(status: Swift.Int)
+  @objc optional func playerExit(duration: Swift.Int)
+  @objc optional func currentVideoPosition(durationPlayedSeconds: Swift.Float)
+  @objc optional func totalVideoDuration(totalDuration: Swift.Float)
+  @objc optional func playbackBufferEmpty()
+  @objc optional func playbackLikelyToKeepUp()
+}
+@objc @_hasMissingDesignatedInitializers public class WCSDKPlayerEvents : ObjectiveC.NSObject {
+  public func playVideo()
+  public func pauseVideo()
+  public func stopVideo()
+  public func showOverlayView()
+  public func hideOverlayView()
+  @objc public func enterFullScreen()
+  @objc public func exitFullScreen()
+  public func seekTo(timeValue: Swift.Float)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public class WCSDKOndemandContentToken : ObjectiveC.NSObject, Swift.Codable {
+  public var token: Swift.String
+  @objc deinit
+  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@objc public class WCSDKOndemandCkcToken : ObjectiveC.NSObject, Swift.Codable {
+  public var key: Foundation.Data
+  @objc deinit
+  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct WCSDKConsentRequest : Swift.Codable {
+  public var consentTag: Swift.String
+  public var action: Swift.Int
+  public var userId: Swift.String
+  public init()
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@objc public class WCSDKPlayerViewModel : ObjectiveC.NSObject {
+  public init(content: WexerContentSDK.WCSDKOndemandClass)
+  @objc override dynamic public init()
+  @objc deinit
+}

@@ -1,0 +1,11 @@
+framework module WexerContentSDK {
+  umbrella header "WexerContentSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module WexerContentSDK.Swift {
+    header "WexerContentSDK-Swift.h"
+    requires objc
+}
