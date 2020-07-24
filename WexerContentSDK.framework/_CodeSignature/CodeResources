@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		/7iAvtQgD4iomDpGDbZVyzu8fY0=
+		nYYz5wJvQTgT+Juvj3be9g9GsA0=
 		</data>
 		<key>Frameworks/Localytics.framework/Info.plist</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Frameworks/Localytics.framework/Localytics</key>
 		<data>
-		6LPlNPfuAjf9RctJNIKCeb2AngY=
+		CLBqVKwM2qAVOQ1TzPiM8Lpo5ak=
 		</data>
 		<key>Frameworks/Localytics.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/WexerContentSDK-Swift.h</key>
 		<data>
-		XQEfUl4D8sbtbZkYqmA7tymb4Ko=
+		DV16Z903FjN12xf3lOCJWLJ3tRk=
 		</data>
 		<key>Headers/WexerContentSDK.h</key>
 		<data>
@@ -30,39 +30,39 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RntMltdyxiso0SZIZLjN5T//0gU=
+		I8eoaZQIaGU9lVlPK6HYSVN7R+Q=
 		</data>
 		<key>Modules/WexerContentSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		KEB2w7Mtp/BzEFzcOde1oXMl5rc=
+		hzwtnklecbmRniG+RA2nYsLtrQQ=
 		</data>
 		<key>Modules/WexerContentSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		KEB2w7Mtp/BzEFzcOde1oXMl5rc=
+		hzwtnklecbmRniG+RA2nYsLtrQQ=
 		</data>
 		<key>Modules/WexerContentSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		iGH7qZVcaZkT073vCOiW6ROitjw=
+		JjEv7eTit1VxiiBRzxNePmZuq64=
 		</data>
 		<key>Modules/WexerContentSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		k/0K/GWkw+BzuJJLhTWNCHZXeXg=
+		IHtSMstSrCiQGGLF1qfiAWveSVw=
 		</data>
 		<key>Modules/WexerContentSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		AmiJZb/PXau264Upt+j0qph4yLM=
+		KPWiifarPuNcSdOLUoNXv0fqJwc=
 		</data>
 		<key>Modules/WexerContentSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		iGH7qZVcaZkT073vCOiW6ROitjw=
+		JjEv7eTit1VxiiBRzxNePmZuq64=
 		</data>
 		<key>Modules/WexerContentSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		k/0K/GWkw+BzuJJLhTWNCHZXeXg=
+		IHtSMstSrCiQGGLF1qfiAWveSVw=
 		</data>
 		<key>Modules/WexerContentSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		AmiJZb/PXau264Upt+j0qph4yLM=
+		KPWiifarPuNcSdOLUoNXv0fqJwc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,23 +70,23 @@
 		</data>
 		<key>WCSDKOndemandClass.storyboardc/Info.plist</key>
 		<data>
-		27xjCJB2htZlhS7JmL2Mu/VXquc=
+		xkC/UiDo7yJDwHqqzXXCrTYx5TY=
 		</data>
 		<key>WCSDKOndemandClass.storyboardc/WCSDKPlayerOverlay.nib</key>
 		<data>
-		O4FlpWp7TULYPXMAomn4O88N3as=
+		l8xfNPsQf7V7K801ssYWvK4lPPI=
 		</data>
 		<key>WCSDKOndemandClass.storyboardc/WCSDKPlayerViewController.nib</key>
 		<data>
-		xhX8Kl5RZCrtIq6hG3zvxoK59Zg=
+		t3y9WFV3GSjY0BATd9INZI4BNno=
 		</data>
 		<key>WCSDKOndemandClass.storyboardc/iOO-NZ-sdL-view-1eb-0s-R9i.nib</key>
 		<data>
-		wbAKTeSqDdEPOeJNI/xedtmCjmM=
+		AbVhXIb0Ej48uV1mfFY539ARd4Q=
 		</data>
 		<key>WCSDKOndemandClass.storyboardc/xwx-ne-Bi7-view-xAA-lj-Sj0.nib</key>
 		<data>
-		iKDJf9cYAsLn3D7YNb0yUYygEXc=
+		8Ne6IsYySEFKOhYb4BBe+NL6jG4=
 		</data>
 		<key>fairplay.cer</key>
 		<data>
@@ -107,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			F61gefSNJIGy0RBAZUrI7OUujq3ibDDmdpM01IN9tS0=
+			Vchr4OOfImCnqmjq8/WutHrO6j9O8G+3P4/ixCOYhuo=
 			</data>
 		</dict>
 		<key>Frameworks/Localytics.framework/Info.plist</key>
@@ -121,7 +121,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ohYnXngHLmKdhx7oRpWJNSmQgIhk0eYtuFJAThR4qzo=
+			CibqpoXqjE/09KOXFozHJY1jngpkScO1qC6ZlM1emBQ=
 			</data>
 		</dict>
 		<key>Frameworks/Localytics.framework/_CodeSignature/CodeResources</key>
@@ -135,7 +135,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			f/YWfLlrwCnilO5tN1C0JRT7OmIr+kiOr3TZ4yUK0tY=
+			Ajw+dUC1gOeKFF4pbxW1sCczqz+BpyxwpUokEGx+5Hk=
 			</data>
 		</dict>
 		<key>Headers/WexerContentSDK.h</key>
@@ -149,56 +149,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			908LW7X8TMFh8PX4OvdFLREdbX0FqkB0lsYkJ+2rhY8=
+			GgfBSas7dprAJfmVGGPVRu58IRovMfDbSnMvVUU40Pg=
 			</data>
 		</dict>
 		<key>Modules/WexerContentSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			908LW7X8TMFh8PX4OvdFLREdbX0FqkB0lsYkJ+2rhY8=
+			GgfBSas7dprAJfmVGGPVRu58IRovMfDbSnMvVUU40Pg=
 			</data>
 		</dict>
 		<key>Modules/WexerContentSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kuloX/dIyiP7ye6Hgid0Ng+lkUNXA3h3Yj/oJQLHML0=
+			Aj8bMnoYvbrnfMcecYUoS5wxRf+YdnFJ6+bNWX03qUI=
 			</data>
 		</dict>
 		<key>Modules/WexerContentSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			22iEOTYIoYgx9scMFgNxTUdcYSN4nYj9D9aUb9XEuJE=
+			AqDCP8SE2VR+J6hfL1atKRTaW8Y2O6qxHEU6wSUUlKM=
 			</data>
 		</dict>
 		<key>Modules/WexerContentSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cBpm//1uBgUXi84g5S1SIhVpqPw2vOwGgEji93y3rNM=
+			QwI1i8bA7o+5onClfWGGagW+GSCKtzszeXIDWjEop/k=
 			</data>
 		</dict>
 		<key>Modules/WexerContentSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kuloX/dIyiP7ye6Hgid0Ng+lkUNXA3h3Yj/oJQLHML0=
+			Aj8bMnoYvbrnfMcecYUoS5wxRf+YdnFJ6+bNWX03qUI=
 			</data>
 		</dict>
 		<key>Modules/WexerContentSDK.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			22iEOTYIoYgx9scMFgNxTUdcYSN4nYj9D9aUb9XEuJE=
+			AqDCP8SE2VR+J6hfL1atKRTaW8Y2O6qxHEU6wSUUlKM=
 			</data>
 		</dict>
 		<key>Modules/WexerContentSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cBpm//1uBgUXi84g5S1SIhVpqPw2vOwGgEji93y3rNM=
+			QwI1i8bA7o+5onClfWGGagW+GSCKtzszeXIDWjEop/k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -212,35 +212,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zdimN3cM4Fj81PbKt/FAjZz8EvjGbr4LcK7Cg1r7Il0=
+			hF6gD4oiGN1lU8SM0DTdVrFg2O9PjGmiwF+WKA0Jkf8=
 			</data>
 		</dict>
 		<key>WCSDKOndemandClass.storyboardc/WCSDKPlayerOverlay.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7bM6U+meT2uTmiNVCvXtpvjKJxKvzNPqs/kNLhKvXhs=
+			3TsgabgbPyy3yv8YxnNNe13CAd9AfnC2B9DEuZXsKCQ=
 			</data>
 		</dict>
 		<key>WCSDKOndemandClass.storyboardc/WCSDKPlayerViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			au5RI9vz9slxk069lsIkjJ0j9TLoaID61fjQoZVY8r0=
+			fQY9VP+eyJkM8jtgvjqjptp3Sdl9u9LkyeGe3yulQWE=
 			</data>
 		</dict>
 		<key>WCSDKOndemandClass.storyboardc/iOO-NZ-sdL-view-1eb-0s-R9i.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dCdD08tYuOEQJQQPegYf/AkBHGyO/Hxoa81X99yO9Mg=
+			zwlq4kn18m9BmHZpwBFZ13EwK9fjlT6t/i/+e7SllVc=
 			</data>
 		</dict>
 		<key>WCSDKOndemandClass.storyboardc/xwx-ne-Bi7-view-xAA-lj-Sj0.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aqfTGQvSDybKAZjY47Si9bGGtuCsBtBr7W/T/oUxgH4=
+			yyEWsOzIuaXBpysHQHFiZpyT5D3a+ttbSA2AyoipR84=
 			</data>
 		</dict>
 		<key>fairplay.cer</key>

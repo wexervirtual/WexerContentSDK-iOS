@@ -340,6 +340,7 @@ SWIFT_CLASS("_TtC15WexerContentSDK25WCSDKOndemandContentToken")
 
 SWIFT_CLASS("_TtC15WexerContentSDK26WCSDKOndemandFilterRequest")
 @interface WCSDKOndemandFilterRequest : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
