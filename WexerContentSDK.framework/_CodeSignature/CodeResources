@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		h0PfKyW6uj9pKNvEHy33PUyD1SY=
+		</data>
 		<key>Assets.car</key>
 		<data>
 		nYYz5wJvQTgT+Juvj3be9g9GsA0=
@@ -50,7 +54,7 @@
 		</data>
 		<key>Modules/WexerContentSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		KPWiifarPuNcSdOLUoNXv0fqJwc=
+		XKerg2OLRAD09NyroMcmBQ/HfH4=
 		</data>
 		<key>Modules/WexerContentSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -62,7 +66,7 @@
 		</data>
 		<key>Modules/WexerContentSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		KPWiifarPuNcSdOLUoNXv0fqJwc=
+		XKerg2OLRAD09NyroMcmBQ/HfH4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -74,19 +78,19 @@
 		</data>
 		<key>WCSDKOndemandClass.storyboardc/WCSDKPlayerOverlay.nib</key>
 		<data>
-		l8xfNPsQf7V7K801ssYWvK4lPPI=
+		f32Pc7wgxjHrqJ24UQobVmYIRyU=
 		</data>
 		<key>WCSDKOndemandClass.storyboardc/WCSDKPlayerViewController.nib</key>
 		<data>
-		t3y9WFV3GSjY0BATd9INZI4BNno=
+		UIvAZyOVykE1jAPOAVNXBJAgnjo=
 		</data>
 		<key>WCSDKOndemandClass.storyboardc/iOO-NZ-sdL-view-1eb-0s-R9i.nib</key>
 		<data>
-		AbVhXIb0Ej48uV1mfFY539ARd4Q=
+		+Rpj/dxhrZvdRqpK2PyKA14jZbE=
 		</data>
 		<key>WCSDKOndemandClass.storyboardc/xwx-ne-Bi7-view-xAA-lj-Sj0.nib</key>
 		<data>
-		8Ne6IsYySEFKOhYb4BBe+NL6jG4=
+		E//yLeAufGmwT8kXodaZlbr92k8=
 		</data>
 		<key>fairplay.cer</key>
 		<data>
@@ -177,7 +181,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QwI1i8bA7o+5onClfWGGagW+GSCKtzszeXIDWjEop/k=
+			xTWp1TnsHcwBirHS9/VptM2ft/5AN6QW00nRCJFoGVA=
 			</data>
 		</dict>
 		<key>Modules/WexerContentSDK.swiftmodule/arm64.swiftdoc</key>
@@ -198,7 +202,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QwI1i8bA7o+5onClfWGGagW+GSCKtzszeXIDWjEop/k=
+			xTWp1TnsHcwBirHS9/VptM2ft/5AN6QW00nRCJFoGVA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -219,28 +223,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3TsgabgbPyy3yv8YxnNNe13CAd9AfnC2B9DEuZXsKCQ=
+			S3ULJCfa8Gfz2xOcrunYPBGj+eNW9cX1BTzgl10v8no=
 			</data>
 		</dict>
 		<key>WCSDKOndemandClass.storyboardc/WCSDKPlayerViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fQY9VP+eyJkM8jtgvjqjptp3Sdl9u9LkyeGe3yulQWE=
+			p95HwUmGyy6iWWcuyMfFkFD3ilHKv+S9bZTZoQtDA1w=
 			</data>
 		</dict>
 		<key>WCSDKOndemandClass.storyboardc/iOO-NZ-sdL-view-1eb-0s-R9i.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zwlq4kn18m9BmHZpwBFZ13EwK9fjlT6t/i/+e7SllVc=
+			h3GQLcCCDqeELQx8s6y/APQPBdGcpjiHYCcqOuZ92tI=
 			</data>
 		</dict>
 		<key>WCSDKOndemandClass.storyboardc/xwx-ne-Bi7-view-xAA-lj-Sj0.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yyEWsOzIuaXBpysHQHFiZpyT5D3a+ttbSA2AyoipR84=
+			o/wEtX7rkHE8f5IG9jSYv+LlFvpsaRvOs/A5HJnoi48=
 			</data>
 		</dict>
 		<key>fairplay.cer</key>
