@@ -93,19 +93,19 @@ public struct WCSDKOndemandResultRequest : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
 }
 @_inheritsConvenienceInitializers @objc public class WCSDKOndemandFilterRequest : ObjectiveC.NSObject, Swift.Codable {
-  public var classLanguage: Swift.String
-  public var dir: Swift.String
-  public var duration: Swift.String
-  public var equipment: Swift.String
-  public var intensity: Swift.String
-  public var keywords: Swift.String
-  public var level: Swift.String
-  public var provider: Swift.String
+  public var classLanguage: Swift.String?
+  public var dir: Swift.String?
+  public var duration: Swift.String?
+  public var equipment: Swift.String?
+  public var intensity: Swift.String?
+  public var keywords: Swift.String?
+  public var level: Swift.String?
+  public var provider: Swift.String?
   public var skip: Swift.Int
-  public var sort: Swift.String
-  public var type: Swift.String
+  public var sort: Swift.String?
+  public var type: Swift.String?
   public var take: Swift.Int
-  public var query: Swift.String
+  public var query: Swift.String?
   @objc deinit
   @objc override dynamic public init()
   required public init(from decoder: Swift.Decoder) throws
