@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "WexerContentSDK"
-  spec.version      = "2.0.2"
+  spec.version      = "2.1.0"
   spec.summary      = "Wexer provides iOS SDK that enables developers to show On Demand content in the app"
 
   # This description is used to generate tags and improve search results.
@@ -77,7 +77,8 @@ Pod::Spec.new do |spec|
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
-  spec.ios.vendored_frameworks = "WexerContentSDK.framework"
+  spec.ios.vendored_frameworks = "WexerContentSDK.xcframework"
+  spec.ios.dependency 'Localytics', '~> 6.0'
   spec.source       = { :git => "https://github.com/wexervirtual/WexerContentSDK-iOS.git", :tag => "#{spec.version}" }
   spec.swift_version = "5.1"
 
