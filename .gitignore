@@ -1,0 +1,7 @@
+.DS_Store
+*.pbxuser
+!default.pbxuser
+UserInterfaceState.xcuserstate
+xcuserdata
+build/
+WexerSDKSampleApp/Pods

@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6315CD7624A91178004F5041 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315CD7524A91178004F5041 /* OverlayView.swift */; };
+		6315CD7824A911BC004F5041 /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6315CD7724A911BC004F5041 /* OverlayView.xib */; };
+		6315CD7A24A9161B004F5041 /* sample.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6315CD7924A9161B004F5041 /* sample.xcassets */; };
+		63809065242C9ADC00273DA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63809064242C9ADC00273DA2 /* AppDelegate.swift */; };
+		63809067242C9ADC00273DA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63809066242C9ADC00273DA2 /* SceneDelegate.swift */; };
+		63809069242C9ADC00273DA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63809068242C9ADC00273DA2 /* ViewController.swift */; };
+		6380906C242C9ADC00273DA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6380906A242C9ADC00273DA2 /* Main.storyboard */; };
+		6380906E242C9AE000273DA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6380906D242C9AE000273DA2 /* Assets.xcassets */; };
+		63809071242C9AE000273DA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6380906F242C9AE000273DA2 /* LaunchScreen.storyboard */; };
+		63809082242CC45C00273DA2 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63809081242CC45C00273DA2 /* ViewModel.swift */; };
+		638AB670247EA77400261B16 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 638AB66F247EA77400261B16 /* ReadMe.txt */; };
+		6B80F0FD1D3C22E0B8D44F77 /* Pods_WexerSDKSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 304270C87EC02A7D728A5140 /* Pods_WexerSDKSampleApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6380907F242C9B1100273DA2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		304270C87EC02A7D728A5140 /* Pods_WexerSDKSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WexerSDKSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6315CD7524A91178004F5041 /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		6315CD7724A911BC004F5041 /* OverlayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
+		6315CD7924A9161B004F5041 /* sample.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = sample.xcassets; sourceTree = "<group>"; };
+		63809061242C9ADC00273DA2 /* WexerSDKSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WexerSDKSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63809064242C9ADC00273DA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63809066242C9ADC00273DA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		63809068242C9ADC00273DA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6380906B242C9ADC00273DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6380906D242C9AE000273DA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63809070242C9AE000273DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63809072242C9AE000273DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63809081242CC45C00273DA2 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		638AB66F247EA77400261B16 /* ReadMe.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		A8B4C44C9EC859AD3952417D /* Pods-WexerSDKSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WexerSDKSampleApp.debug.xcconfig"; path = "Target Support Files/Pods-WexerSDKSampleApp/Pods-WexerSDKSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D20AFD7560D3A7E0A22F0604 /* Pods-WexerSDKSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WexerSDKSampleApp.release.xcconfig"; path = "Target Support Files/Pods-WexerSDKSampleApp/Pods-WexerSDKSampleApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6380905E242C9ADC00273DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B80F0FD1D3C22E0B8D44F77 /* Pods_WexerSDKSampleApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63809058242C9ADC00273DA2 = {
+			isa = PBXGroup;
+			children = (
+				638AB66F247EA77400261B16 /* ReadMe.txt */,
+				63809063242C9ADC00273DA2 /* WexerSDKSampleApp */,
+				63809062242C9ADC00273DA2 /* Products */,
+				6380907B242C9B1100273DA2 /* Frameworks */,
+				8BCD920EACA3D4D3A9DCBD1E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		63809062242C9ADC00273DA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63809061242C9ADC00273DA2 /* WexerSDKSampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63809063242C9ADC00273DA2 /* WexerSDKSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				63809064242C9ADC00273DA2 /* AppDelegate.swift */,
+				63809066242C9ADC00273DA2 /* SceneDelegate.swift */,
+				63809068242C9ADC00273DA2 /* ViewController.swift */,
+				63809081242CC45C00273DA2 /* ViewModel.swift */,
+				6380906A242C9ADC00273DA2 /* Main.storyboard */,
+				6380906D242C9AE000273DA2 /* Assets.xcassets */,
+				6380906F242C9AE000273DA2 /* LaunchScreen.storyboard */,
+				63809072242C9AE000273DA2 /* Info.plist */,
+				6315CD7524A91178004F5041 /* OverlayView.swift */,
+				6315CD7724A911BC004F5041 /* OverlayView.xib */,
+				6315CD7924A9161B004F5041 /* sample.xcassets */,
+			);
+			path = WexerSDKSampleApp;
+			sourceTree = "<group>";
+		};
+		6380907B242C9B1100273DA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				304270C87EC02A7D728A5140 /* Pods_WexerSDKSampleApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BCD920EACA3D4D3A9DCBD1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8B4C44C9EC859AD3952417D /* Pods-WexerSDKSampleApp.debug.xcconfig */,
+				D20AFD7560D3A7E0A22F0604 /* Pods-WexerSDKSampleApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63809060242C9ADC00273DA2 /* WexerSDKSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63809075242C9AE000273DA2 /* Build configuration list for PBXNativeTarget "WexerSDKSampleApp" */;
+			buildPhases = (
+				2012463C8A678CD31935A813 /* [CP] Check Pods Manifest.lock */,
+				6380905D242C9ADC00273DA2 /* Sources */,
+				6380905E242C9ADC00273DA2 /* Frameworks */,
+				6380905F242C9ADC00273DA2 /* Resources */,
+				6380907F242C9B1100273DA2 /* Embed Frameworks */,
+				63ACFA6924CDF6A2004C92E2 /* ShellScript */,
+				E5B644A7BAF8ED6DE3FA3DB8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WexerSDKSampleApp;
+			productName = WexerSDKSampleApp;
+			productReference = 63809061242C9ADC00273DA2 /* WexerSDKSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63809059242C9ADC00273DA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = DMI;
+				TargetAttributes = {
+					63809060242C9ADC00273DA2 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6380905C242C9ADC00273DA2 /* Build configuration list for PBXProject "WexerSDKSampleApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63809058242C9ADC00273DA2;
+			productRefGroup = 63809062242C9ADC00273DA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63809060242C9ADC00273DA2 /* WexerSDKSampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6380905F242C9ADC00273DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63809071242C9AE000273DA2 /* LaunchScreen.storyboard in Resources */,
+				6380906E242C9AE000273DA2 /* Assets.xcassets in Resources */,
+				6315CD7824A911BC004F5041 /* OverlayView.xib in Resources */,
+				6315CD7A24A9161B004F5041 /* sample.xcassets in Resources */,
+				638AB670247EA77400261B16 /* ReadMe.txt in Resources */,
+				6380906C242C9ADC00273DA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2012463C8A678CD31935A813 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WexerSDKSampleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63ACFA6924CDF6A2004C92E2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n APP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n\nfind \"$APP_PATH\" -name '*.framework' -type d | while read -r FRAMEWORK\ndo\nFRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\nFRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\necho \"Executable is $FRAMEWORK_EXECUTABLE_PATH\"\necho $(lipo -info \"$FRAMEWORK_EXECUTABLE_PATH\")\n\nFRAMEWORK_TMP_PATH=\"$FRAMEWORK_EXECUTABLE_PATH-tmp\"\n\ncase \"${TARGET_BUILD_DIR}\" in\n*\"iphonesimulator\")\n    echo \"No need to remove archs\"\n    ;;\n*)\n    if $(lipo \"$FRAMEWORK_EXECUTABLE_PATH\" -verify_arch \"i386\") ; then\n    lipo -output \"$FRAMEWORK_TMP_PATH\" -remove \"i386\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n    echo \"i386 architecture removed\"\n    rm \"$FRAMEWORK_EXECUTABLE_PATH\"\n    mv \"$FRAMEWORK_TMP_PATH\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n    fi\n    if $(lipo \"$FRAMEWORK_EXECUTABLE_PATH\" -verify_arch \"x86_64\") ; then\n    lipo -output \"$FRAMEWORK_TMP_PATH\" -remove \"x86_64\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n    echo \"x86_64 architecture removed\"\n    rm \"$FRAMEWORK_EXECUTABLE_PATH\"\n    mv \"$FRAMEWORK_TMP_PATH\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n    fi\n    ;;\nesac\n\necho \"Completed for executable $FRAMEWORK_EXECUTABLE_PATH\"\necho $(lipo -info \"$FRAMEWORK_EXECUTABLE_PATH\")\n\ndone\n";
+		};
+		E5B644A7BAF8ED6DE3FA3DB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WexerSDKSampleApp/Pods-WexerSDKSampleApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WexerSDKSampleApp/Pods-WexerSDKSampleApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WexerSDKSampleApp/Pods-WexerSDKSampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6380905D242C9ADC00273DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63809069242C9ADC00273DA2 /* ViewController.swift in Sources */,
+				63809065242C9ADC00273DA2 /* AppDelegate.swift in Sources */,
+				63809082242CC45C00273DA2 /* ViewModel.swift in Sources */,
+				63809067242C9ADC00273DA2 /* SceneDelegate.swift in Sources */,
+				6315CD7624A91178004F5041 /* OverlayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6380906A242C9ADC00273DA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6380906B242C9ADC00273DA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6380906F242C9AE000273DA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63809070242C9AE000273DA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63809073242C9AE000273DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63809074242C9AE000273DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63809076242C9AE000273DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8B4C44C9EC859AD3952417D /* Pods-WexerSDKSampleApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development: Ishita Agarwal (K9SKPVMWZ2)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 2UDQRNR4F2;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WexerSDKSampleApp/Frameworks",
+					"$(PROJECT_DIR)/WexerSDKSampleApp/Frameworks/WexerContentSDK.framework/Frameworks",
+					"$(PROJECT_DIR)/Pods/WexerContentSDK/WexerContentSDK.framework/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/WexerSDKSampleApp/Frameworks/WexerContentSDK.framework/Localytics-iOS-6.0.0/Localytics.framework/Headers\"";
+				INFOPLIST_FILE = WexerSDKSampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wexer.ondemandsdk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = WexerSDKDevelop;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Debug;
+		};
+		63809077242C9AE000273DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D20AFD7560D3A7E0A22F0604 /* Pods-WexerSDKSampleApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development: Ishita Agarwal (K9SKPVMWZ2)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 2UDQRNR4F2;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WexerSDKSampleApp/Frameworks",
+					"$(PROJECT_DIR)/WexerSDKSampleApp/Frameworks/WexerContentSDK.framework/Frameworks",
+					"$(PROJECT_DIR)/Pods/WexerContentSDK/WexerContentSDK.framework/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/WexerSDKSampleApp/Frameworks/WexerContentSDK.framework/Localytics-iOS-6.0.0/Localytics.framework/Headers\"";
+				INFOPLIST_FILE = WexerSDKSampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wexer.ondemandsdk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = WexerSDKDevelop;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6380905C242C9ADC00273DA2 /* Build configuration list for PBXProject "WexerSDKSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63809073242C9AE000273DA2 /* Debug */,
+				63809074242C9AE000273DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63809075242C9AE000273DA2 /* Build configuration list for PBXNativeTarget "WexerSDKSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63809076242C9AE000273DA2 /* Debug */,
+				63809077242C9AE000273DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63809059242C9ADC00273DA2 /* Project object */;
+}
