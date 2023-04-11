@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #
   spec.ios.vendored_frameworks = "WexerContentSDK.xcframework"
   spec.ios.dependency 'Localytics', '~> 6.0'
-  spec.source       = { :git => "https://github.com/wexervirtual/WexerContentSDK-iOS.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/wexervirtual/WexerContentSDK-iOS.git", :branch => "sdkUpgrade" }
   spec.swift_version = "5.1"
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

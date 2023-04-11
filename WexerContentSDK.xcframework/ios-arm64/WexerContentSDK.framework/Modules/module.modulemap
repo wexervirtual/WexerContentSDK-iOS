@@ -6,6 +6,6 @@ framework module WexerContentSDK {
 }
 
 module WexerContentSDK.Swift {
-    header "WexerContentSDK-Swift.h"
-    requires objc
+  header "WexerContentSDK-Swift.h"
+  requires objc
 }

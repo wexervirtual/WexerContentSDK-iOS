@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		v0Vfxl6cBnmEUM+PdomNNbs6nsQ=
+		CyxTwTjrucvz8IpJ0v/kAhSR+Rk=
 		</data>
 		<key>Frameworks/Localytics.framework/Info.plist</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Frameworks/Localytics.framework/Localytics</key>
 		<data>
-		seQOjgLKMIY4aVqnZJQz/Aufn+A=
+		fEskyUfhsiCZvLgXaphEwzQ7luk=
 		</data>
 		<key>Frameworks/Localytics.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/WexerContentSDK-Swift.h</key>
 		<data>
-		b/pUkUEYE8iPXLnDZzW/blpHeNo=
+		/uim03O/wvoWdeoYA++f0yUxYww=
 		</data>
 		<key>Headers/WexerContentSDK.h</key>
 		<data>
@@ -30,35 +30,35 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kAj8SRIayBl5ozqmpYtuiiZtJ4Y=
+		sEjLD2Hz4XnE5ZpR8X2FjABCyLc=
+		</data>
+		<key>Modules/WexerContentSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<data>
+		EZwyyA4ni3Hdiq/g06aF3aisBy4=
+		</data>
+		<key>Modules/WexerContentSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		tnyPLK4A7ncy6zTY9h+usL7mq7w=
+		</data>
+		<key>Modules/WexerContentSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		hgYMndzI/MO6BOFGpxDW1rytqqM=
 		</data>
 		<key>Modules/WexerContentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		WvTk+anPAX5EkmWE1B4OLmePsIA=
+		D1lJIDWaaVjJx43vtWr1Rz0igdk=
 		</data>
 		<key>Modules/WexerContentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		mVjwJZVxHagTn2NhQTEb+YS8q/s=
+		hgYMndzI/MO6BOFGpxDW1rytqqM=
 		</data>
 		<key>Modules/WexerContentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6y4sGKnOAHZKAVKTUoZHNwK2AbI=
-		</data>
-		<key>Modules/WexerContentSDK.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		WvTk+anPAX5EkmWE1B4OLmePsIA=
-		</data>
-		<key>Modules/WexerContentSDK.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		mVjwJZVxHagTn2NhQTEb+YS8q/s=
-		</data>
-		<key>Modules/WexerContentSDK.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		6y4sGKnOAHZKAVKTUoZHNwK2AbI=
+		o+vK/4IRHItEPskOsSkUhmj2OZ4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		phRHRv2yzM1DxFz04gEz4l4a/Vo=
+		f0zN0UPfHLDHeeuTX2B5ddFZQZ0=
 		</data>
 		<key>WCSDKOndemandClass.storyboardc/Info.plist</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>WCSDKOndemandClass.storyboardc/iOO-NZ-sdL-view-1eb-0s-R9i.nib</key>
 		<data>
-		T2dD7h3HyRcU71vnMmVlzPjLAX0=
+		C2fTo9dVE7DGgnDtzzYxg0Rs3II=
 		</data>
 		<key>WCSDKOndemandClass.storyboardc/xwx-ne-Bi7-view-xAA-lj-Sj0.nib</key>
 		<data>
@@ -99,7 +99,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ROtCbU5FOSxdlGHv5Tp3pE/G36R7Ofvo259Uea+mz2o=
+			5XJUiEz5GndPwZioX7nSp1Hinhn5h+hC0g1nMepkmYI=
 			</data>
 		</dict>
 		<key>Frameworks/Localytics.framework/Info.plist</key>
@@ -113,7 +113,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LvLtcrkvE/B/8+jKggyfZttrLbHR86kJXWntj+WCQxE=
+			dZR/pgd67skAtrSGeaOktLYKhS3AX+s+yBpBfA3s28k=
 			</data>
 		</dict>
 		<key>Frameworks/Localytics.framework/_CodeSignature/CodeResources</key>
@@ -127,7 +127,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			P0CZ8aGUehmInoRjeN3IfKjKkUcoBNGRL8EXWSFPw5o=
+			3QUioreYFoQnVVvZjuFhPXP7Lf+nG6RzdKTfCv/68nU=
 			</data>
 		</dict>
 		<key>Headers/WexerContentSDK.h</key>
@@ -137,53 +137,53 @@
 			8SPQFhcx3f2JHQgNNZqzzwi1GguO1vLe/ZTQ66mlmvU=
 			</data>
 		</dict>
+		<key>Modules/WexerContentSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jxIspiS+42/VlZFtm9hyia54nDVXtlC4vXXJ9ovJDBA=
+			</data>
+		</dict>
+		<key>Modules/WexerContentSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ed6/kKCCodp4Qii49J7iPkwZxZrL0NXUtDuvdOdtH9A=
+			</data>
+		</dict>
+		<key>Modules/WexerContentSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0S57/rIOiw7OELfHig1RzBWmf2kQGrjebzpP3Q7tMf4=
+			</data>
+		</dict>
 		<key>Modules/WexerContentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CqLwfP/JLcQikmCeoEB/DEIhSP2JTR6HoIZjdxZrdA8=
+			j083OdkcmyWNir5A0x+MJbPeVR/BR02X88+HkbOzZPc=
 			</data>
 		</dict>
 		<key>Modules/WexerContentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j0cZKhXavx67Ot+016BDDrwVoEwYVEBLElaDNc++Kj4=
+			0S57/rIOiw7OELfHig1RzBWmf2kQGrjebzpP3Q7tMf4=
 			</data>
 		</dict>
 		<key>Modules/WexerContentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			105B32GHbFZRlXT6ic3gCu539fvWmWoxDYMDOJ4kYYc=
-			</data>
-		</dict>
-		<key>Modules/WexerContentSDK.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CqLwfP/JLcQikmCeoEB/DEIhSP2JTR6HoIZjdxZrdA8=
-			</data>
-		</dict>
-		<key>Modules/WexerContentSDK.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			j0cZKhXavx67Ot+016BDDrwVoEwYVEBLElaDNc++Kj4=
-			</data>
-		</dict>
-		<key>Modules/WexerContentSDK.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			105B32GHbFZRlXT6ic3gCu539fvWmWoxDYMDOJ4kYYc=
+			i/8FI3mfge/6ZC6un+WOp+3zfS8vSJNFpvfWQZlZG8Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fVzrrbGgAmf4TH5McWq47/bkJS7goqhMtnmclC3H/aw=
+			C8S99HRZWlru3zXj6Kacb1CLzwxPgCUAcDGxgj4kACw=
 			</data>
 		</dict>
 		<key>WCSDKOndemandClass.storyboardc/Info.plist</key>
@@ -211,7 +211,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JI30jp9FFatDwMdf7bI4BKttSMs/Rs7+kGWRJoRopdY=
+			bikgikOC0EragGM12iBdEztPjn9ZGshtf+TFX//BlI8=
 			</data>
 		</dict>
 		<key>WCSDKOndemandClass.storyboardc/xwx-ne-Bi7-view-xAA-lj-Sj0.nib</key>
