@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "WexerContentSDK"
-  spec.version      = "2.1.0"
+  spec.version      = "2.3.1"
   spec.summary      = "Wexer provides iOS SDK that enables developers to show On Demand content in the app"
 
   # This description is used to generate tags and improve search results.
