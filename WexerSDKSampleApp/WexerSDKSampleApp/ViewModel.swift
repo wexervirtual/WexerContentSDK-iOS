@@ -39,12 +39,12 @@ class ViewModel: NSObject {
   }
   
   func getClasses(completionBlock: @escaping(WCSDKOndemandClass?, NSError?) -> Void) {
-    WCSDK.getOndemandClasses(page: 1, pageSize: 20, sort: "", order: "") { [weak self] (response, error) in
+    WCSDK.getOndemandClasses(skip: 1, pageSize: 20, sort: "", order: "") { [weak self] (response, error) in
       if error != nil {
         completionBlock(nil, error)
       } else {
-        let responseclasses = response! as WCSDKOndemandClassResponse
-        self?.ondemandclass = responseclasses.items.first
+        let responseclasses = response! as WCSDKOndemandSearchResult
+        self?.ondemandclass = responseclasses.items.first?.virtualClass
         print("total classes ",responseclasses.items.count)
         completionBlock(self?.ondemandclass, error)
         
@@ -56,49 +56,32 @@ class ViewModel: NSObject {
                    overlayView: OverlayView?, completionBlock: @escaping(Int) -> Void) {
     
     playStarted = false
-    WCSDK.activateSubscription(subscription:
-                                WCSDKUserSubscriptionRequest(startDate: Date(),
-                                                             subscriptionId: "contentdemo_sdk")) { [weak self]( error) in
-      DispatchQueue.main.async {
+      self.isPlayerInProgress = true
+      let viewConfig = WCSDKVideoViewBuilder(ondemandClassInfo: ondemandContent)
+      if overlayView != nil {
+        overlayView?.showOverlay()
+        overlayView?.playBtn.setImage(UIImage(named: "pause"), for: .normal)
+        viewConfig.setEventReceiver(receiver: overlayView!)
+      } else {
+        viewConfig.setPlayButtonImage(image: UIImage(named: "play") ?? UIImage())
+        viewConfig.setPauseButtonImage(image: UIImage(named: "pause") ?? UIImage())
+        viewConfig.setExitButtonImage(image: UIImage(named: "close") ?? UIImage())
+        viewConfig.setTitleTextColor(color: UIColor.white)
+        viewConfig.setTitleFont(font: UIFont.systemFont(ofSize: 20.0, weight: UIFont.Weight.heavy))
+      }
+      viewConfig.startVideoIn(parentView: parentView,
+                              overlayView: overlayView) { [weak self] (events, error) in
         if error == nil {
-          self?.isPlayerInProgress = true
-          let viewConfig = WCSDKVideoViewBuilder(ondemandClassInfo: ondemandContent)
-          //                let autoPlay = false
-          //                viewConfig.setAutoPlay(enable: autoPlay)
-          if overlayView != nil {
-            overlayView?.showOverlay()
-            //                  overlayView?.isPlay = autoPlay
-            //                  if autoPlay == true {
-            //                    overlayView?.playBtn.setImage(UIImage(named: "pause"), for: .normal)
-            //                  } else {
-            //                    overlayView?.playBtn.setImage(UIImage(named: "play"), for: .normal)
-            //                  }
-            overlayView?.playBtn.setImage(UIImage(named: "pause"), for: .normal)
-            viewConfig.setEventReceiver(receiver: overlayView!)
-          } else {
-            viewConfig.setPlayButtonImage(image: UIImage(named: "play") ?? UIImage())
-            viewConfig.setPauseButtonImage(image: UIImage(named: "pause") ?? UIImage())
-            viewConfig.setExitButtonImage(image: UIImage(named: "close") ?? UIImage())
-            viewConfig.setTitleTextColor(color: UIColor.white)
-            viewConfig.setTitleFont(font: UIFont.systemFont(ofSize: 20.0, weight: UIFont.Weight.heavy))
-          }
-          viewConfig.startVideoIn(parentView: parentView,
-                                  overlayView: overlayView) { [weak self] (events, error) in
-            if error == nil {
-              self?.playStarted = true
-              overlayView?.eventHandler = events
-              self?.eventHandler = events
-            } else {
-              print(error ?? "")
-              self?.errorMessage = error?.userInfo["message"] as? String ?? ""
-              completionBlock(-1)
-            }
-          }
+          self?.playStarted = true
+          overlayView?.eventHandler = events
+          self?.eventHandler = events
         } else {
+          print(error ?? "")
+          self?.errorMessage = error?.userInfo["message"] as? String ?? ""
           completionBlock(-1)
         }
       }
-    }
+    
   }
   
 }
